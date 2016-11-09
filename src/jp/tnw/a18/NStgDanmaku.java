@@ -124,7 +124,45 @@ public class NStgDanmaku extends NStgUnit {
 	}
 
 	private void danmaku_JKN_A(double gX, double gY) {
-
+//		int[][] KD = { //
+//				//
+//				{ 0, 999 }, //
+//				{ 0, 0 + 30, 0 - 30, 999 }, //
+//				{ 0, 0 + 15, 0 - 15, 0 + 30, 0 - 30, 0 + 45, 0 - 45, 999 } //
+//		};//
+//		// 自機狙い角度
+//		double jikinerai;
+//		jikinerai = Math.atan2((StgPlayer.dY + 24 - (y - 16)) , (StgPlayer.dX + 24 - (x - 16))) / Math.PI * 180 ;
+//		int cnt = 0;
+//
+//		timerReq[0] = timerReq[0] - SYS.FRAME_TIME;
+//		if (timerReq[0] < 0 && bulletCount < 10) {
+//			timerReq[0] = 0.5;
+//			for (int i = 0; i < UNIT_MAX; i++) {
+//				if (flag[i] == 0 && bulletAction[i] == 0) {
+//					imageIndex[i] = 235;
+//					bulletType[i] = 2;
+//					bulletAction[i] = 1;
+//					dX[i] = x;
+//					dY[i] = y;
+//					spdX[i] = 0;
+//					spdY[i] = 0;
+//
+//					isVisible[i] = true;
+//					isHitable[i] = true;
+//					flag[i] = 1;
+//
+//					angle[i] = KD[type][cnt] + jikinerai;
+//					cnt++;
+//					if (KD[type][cnt] == 999) {
+//						break;
+//					}
+//
+//
+//				}
+//			}
+//			bulletCount++;
+//		}
 	}
 
 	private void danmaku_BEAM_A(double gX, double gY) {
